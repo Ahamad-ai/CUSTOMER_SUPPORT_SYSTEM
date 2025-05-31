@@ -1,4 +1,7 @@
 langchain_core
 langchain_astradb
-e_commerce_bot.egg-info
+pandas
+
+#e_commerce_bot.egg-info
+
 -e .

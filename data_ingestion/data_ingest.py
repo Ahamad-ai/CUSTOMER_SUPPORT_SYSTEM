@@ -7,7 +7,10 @@ from data_ingestion.data_transform import data_converter
 class ingest_data:
 
     def __init__(self):
-        pass
+        print("data ingestion class has init ...")
     
     def data_ingestion(self):
         pass
+
+if __name__ =="__main__":
+    data_ingestion=ingest_data()
