@@ -2,6 +2,13 @@ langchain_core
 langchain_astradb
 pandas
 langchain_google_genai
+uvicorn
+fastapi
+python-multipart
+jinja2
+python-dotenv
+langchain
+
 #e_commerce_bot.egg-info
 
 -e .
