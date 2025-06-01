@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 from data_ingestion.data_transform import data_converter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings # type: ignore
 load_dotenv()
 
 GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
