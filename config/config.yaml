@@ -6,8 +6,8 @@ embedding_model:
   model_name: "models/text-embedding-004"
 
 retriever:
-  top_k: 3
+  top_k: 10
 
 llm:
   provider: "google"
-  modle_name: "gemini-1.5-pro"
+  model_name: "gemini-1.5-flash"
